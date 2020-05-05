@@ -3,14 +3,7 @@ C++ Cookiecutter Template
 
 This is a [cookiecutter](https://github.com/cookiecutter/cookiecutter) template
 for a C++ project using [CMake](https://cmake.org) and [Conan](conan.io).  It
-is heavily influenced by a [similar project by Jason
-Turner](https://github.com/lefticus/cpp_starter_project). The main differences
-are:
-
-- This is a cookiecutter template.
-- This has no sample code other than an empty `main.cpp`.
-- This has no default libraries already defined as dependencies.
-
+was forked from [tarcisioe cpp-template](https://github.com/tarcisioe/cpp-template).
 
 How to use
 ==========
@@ -18,7 +11,7 @@ How to use
 First, setup your own project with `cookiecutter`:
 
 ```bash
-cookiecutter gh:tarcisioe/cpp-template
+cookiecutter gh:bohruz/cpp-template
 ```
 
 This will create a directory with the name you defined in `project_slug`.
